@@ -25,6 +25,9 @@ You can customize the elements loaded here if you don't need certain things or w
 
 ````
 
+## Example
+See [ember-polymer-example](https://github.com/inigo-llc/ember-polymer-example)
+
 ## Contributing
 
 * `git clone https://github.com/inigo-llc/ember-polymer.git`

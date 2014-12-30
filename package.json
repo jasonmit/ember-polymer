@@ -1,6 +1,6 @@
 {
   "name": "ember-polymer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -17,10 +17,12 @@
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "broccoli-static-compiler": "^0.2.1",
+    "broccoli-vulcanize": "^1.0.4"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^1.0.0",
-    "broccoli-static-compiler": "^0.2.1",
-    "broccoli-vulcanize": "^1.0.4",
     "ember-cli": "0.1.4",
     "ember-cli-content-security-policy": "0.3.0",
     "ember-cli-dependency-checker": "0.0.6",
