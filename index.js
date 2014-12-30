@@ -7,6 +7,15 @@ var pickFiles   = require('broccoli-static-compiler'),
 module.exports = {
   name: 'ember-polymer',
 
+  contentFor: function(type, config) {
+    if (type === 'head') {
+      return [
+        '<script src="assets/webcomponentsjs/webcomponents.js"></script>',
+        '<link rel="import" href="assets/vulcanized.html">'
+      ];
+    }
+  },
+
   postprocessTree: function(type, tree) {
     if (!tree) {
       return tree;
