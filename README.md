@@ -1,6 +1,9 @@
 ember-polymer
 =============
 
+## Installation
+`ember generate ember-polymer`
+
 ## Usage
 
 Create app/elements.html and load all polymer elements inside of it:
