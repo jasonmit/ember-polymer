@@ -18,7 +18,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "broccoli-static-compiler": "^0.2.1",
     "broccoli-vulcanize": "^1.0.4"
   },
   "devDependencies": {

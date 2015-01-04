@@ -1,8 +1,7 @@
 /* jshint node: true */
 // 'use strict';
 
-var pickFiles   = require('broccoli-static-compiler'),
-    vulcanize = require('broccoli-vulcanize');
+var vulcanize = require('broccoli-vulcanize');
 
 module.exports = {
   name: 'ember-polymer',
@@ -34,7 +33,7 @@ module.exports = {
       }
     });
 
-    var polymer = pickFiles('bower_components/', {
+    var polymer = this.pickFiles('bower_components/', {
       srcDir: '',
       files: [
       'webcomponentsjs/webcomponents.js',
