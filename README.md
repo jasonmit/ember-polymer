@@ -1,6 +1,10 @@
 ember-polymer
 =============
 
+ℹ️ **This is repo is unmaintained.** To use Ember with Polymer, you can use this addon:
+
+https://github.com/dunnkers/ember-polymer
+
 ## Installation
 `ember generate ember-polymer`
 
